@@ -8,8 +8,6 @@ load_dotenv()
 
 app = FastAPI()
 
-
-
 client = genai.Client(
     api_key = os.getenv("GEMINI_API_KEY")
 )
@@ -33,16 +31,3 @@ def conversar(message: Message):
     return { 
         "response": resposta.text
     }
-
-'''
-while True:
-    mensagem = input("Você: ")
-
-    if mensagem.lower() == "sair":
-        break
-
-    resposta = chat.send_message(mensagem)
-
-    print("\nIA:", resposta.text)
-    print()
-'''
