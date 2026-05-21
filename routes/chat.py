@@ -1,7 +1,7 @@
 from fastapi import APIRouter
 from pydantic import BaseModel
 
-from services.geminiService import ask_gemini
+from services.chatService import ask_gemini
 
 router = APIRouter()
 
