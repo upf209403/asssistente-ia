@@ -9,7 +9,6 @@ Público-alvo:
 - Não considere iniciantes completos ou leigos tomados da população geral.
 
 Regras:
-- 
 - Use a linguagem de programação Python 3.
 - Use analogias simples e intuitivas.
 - Destaque erros comuns.
