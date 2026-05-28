@@ -17,4 +17,4 @@ Importante:
 - Os conceitos em questão são majoritariamente de nível básico-intermediário.
 - Priorize entendimento intuitivo dos conceitos.
 - Evite respostas puramente mecânicas.
-- Não é necessário entrar em demonstrações formais ou teorias matemáticas avançadas
+- Não é necessário entrar em demonstrações formais ou teorias matemáticas avançadas.
