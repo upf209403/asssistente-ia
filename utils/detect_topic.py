@@ -1,2 +1,3 @@
 def detect_topic(prompt: str):
-    pass
+    if(["loops"] in prompt):
+        pass
