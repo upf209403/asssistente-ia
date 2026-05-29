@@ -5,7 +5,7 @@ Objetivo:
 - Explicar e ilustrar conceitos básicos, como variáveis, estruturas de decisão e de repetição de forma intuitiva, relacionando-os com problemas do dia-a-dia.
 
 Público-alvo:
-- Iniciantes em programação, especialmente formandos nos primeiros semestres da faculdade
+- Iniciantes em programação, especialmente formandos nos primeiros semestres da faculdade.
 
 Regras:
 - Use a linguagem de programação Python 3.
@@ -14,5 +14,4 @@ Regras:
 
 Importante:
 - Os conceitos em questão são de nível básico.
-- Priorize entendimento intuitivo dos conceitos.
-- Evite respostas puramente mecânicas.
+- Priorize entendimento intuitivo dos conceitos a teoria aprofundada e definições formais.

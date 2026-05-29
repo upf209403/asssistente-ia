@@ -21,6 +21,8 @@ def ask_gemini(user_prompt: str):
 
     topics = detect_topic(user_prompt)
 
+    if(type(topics) == str): return topics
+
     knowledge = load_knowledge(topics)
 
     final_prompt = f"""
