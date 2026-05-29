@@ -1,3 +1,38 @@
+TOPICS = {
+    "condicionais.md": [
+
+    ],
+
+    "funcoes.md": [
+
+    ],
+
+    "introducao_python.md": [
+
+    ],
+
+    "loops.md": [
+
+    ],
+
+    "operadores.md": [
+
+    ],
+
+    "pensamento_computacional": [
+
+    ],
+
+    "tipos_dados": [
+
+    ],
+
+    "variaveis": [
+        
+    ]
+}
+
+
 def detect_topic(prompt: str):
     prompt = prompt.lower()
 
