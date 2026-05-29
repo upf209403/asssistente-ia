@@ -1,5 +1,8 @@
 # Estruturas de repetição
 
-## For
+## Definição
+## Tipos
 
-## While
+### For
+
+### While
