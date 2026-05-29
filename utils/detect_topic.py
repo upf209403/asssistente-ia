@@ -1,6 +1,6 @@
 TOPICS = {
     "condicionais.md": [
-
+        
     ],
 
     "funcoes.md": [
@@ -28,7 +28,7 @@ TOPICS = {
     ],
 
     "variaveis": [
-        
+
     ]
 }
 
