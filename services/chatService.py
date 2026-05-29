@@ -32,18 +32,6 @@ def ask_gemini(user_prompt: str):
 
     knowledge = load_knowledge(topics)
 
-    print("\n===== TOPICS =====")
-    print(topics)
-
-    print("\n===== KNOWLEDGE SIZE =====")
-    print(len(knowledge))
-
-    print("\n===== KNOWLEDGE PREVIEW =====")
-    print(knowledge[:500])
-
-    print("\n===== CHAT PROMPT PREVIEW =====")
-    print(chat_prompt[:500])
-
     final_prompt = f"""
         INSTRUÇÕES DO ASSISTENTE:
         {chat_prompt}
@@ -54,9 +42,6 @@ def ask_gemini(user_prompt: str):
         PERGUNTA DO USUÁRIO:
         {user_prompt}
     """
-
-    print("\n===== FINAL PROMPT SIZE =====")
-    print(len(final_prompt))
 
     try:
         response = client.models.generate_content(
