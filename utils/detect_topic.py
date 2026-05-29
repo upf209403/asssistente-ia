@@ -11,6 +11,8 @@ def detect_topic(prompt: str):
 
     if any(word in prompt for word in ["repetição", "repetiçao", "repeticao", "laços de repetição", "laços de repetiçao", "laços de repeticao", " for ", "while"]): topics.append("loops.md")
 
+    if any(word in prompt for word in ["pensamento computacional", "algoritmo", "algoritmos", "decomposição", "decomposiçao", "decomposicao", " abstração", "abstraçao", "abstracao", "reconhecimento de padrões", "reconhecimentos de padroes"]): topics.append("pensamento_computacional.md")
+
     if not topics:
         return """
             Não foi possível identificar o tópico da conversa.

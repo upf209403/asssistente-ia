@@ -1,6 +1,7 @@
 from pathlib import Path
 
-KNOWLEDGE_PATH = "../knowledge"
+BASE_DIR_KNOWLEDGE = Path(__file__).resolve().parent.parent
+KNOWLEDGE_PATH = BASE_DIR_KNOWLEDGE / "knowledge"
 
 def load_knowledge(files):
 
