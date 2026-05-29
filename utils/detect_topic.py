@@ -1,5 +1,5 @@
-from normalize_text import normalize_text
-from tokenize import tokenize
+from utils.normalize_text import normalize_text
+from utils.tokenize import tokenize
 
 TOPICS = {
     "condicionais.md": [

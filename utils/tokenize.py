@@ -1,5 +1,5 @@
 import re
-from normalize_text import normalize_text
+from utils.normalize_text import normalize_text
 
 def tokenize(text: str):
     normalized = normalize_text(text)

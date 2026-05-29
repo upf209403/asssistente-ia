@@ -1,18 +1,8 @@
-from google import genai
+from pathlib import Path
 from google.genai.errors import ServerError
-from dotenv import load_dotenv
-import os
-
 from utils.detect_topic import detect_topic
 from utils.load_knowledge import load_knowledge
-
-load_dotenv()
-
-client = genai.Client(
-    api_key = os.getenv("GEMINI_API_KEY")
-)
-
-from pathlib import Path
+from services.chatClient import client
 
 BASE_DIR_CHAT = Path(__file__).resolve().parent.parent
 
