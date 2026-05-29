@@ -1,7 +1,7 @@
 # Pensamento Computacional
 
 ## Definição
-- Pensamento computacional é o processo de transformar problemas e tarefas do mundo real em passo lógicos executáveis por computadores.
+- Pensamento computacional é o processo de transformar problemas e tarefas do mundo real em passos lógicos executáveis por computadores.
 
 ## Ideia central
 - Computadores não possuem intuição.
@@ -9,11 +9,6 @@
 - Humanos precisam "traduzir" o conhecimento implícito em regras claras.
 
 ## Componentes do pensamento computacional
-- Decomposição
-- Reconhecimento de padrões
-- Abstração
-- Algoritmos
-
 ### Decomposição
 #### Definição
 - Consiste em quebrar problemas em partes menores.
@@ -59,7 +54,7 @@ Subproblemas:
 
 #### Importância
 - Identificar padrões permite construir soluções mais rápidas e reutilizáveis.
-- É um compontente fundamental do pensamento científico em geral.
+- É um componente fundamental do pensamento científico em geral.
 
 ### Abstração
 #### Definição
@@ -112,7 +107,7 @@ produz resultado diferente de
 
 Finitude
 - Todo algoritmo precisa terminar após um número limitado de etapas.
-Um algoritmo infinito não produz resultados.
+- Um algoritmo infinito não produz resultados.
 
 #### Analogia
 - Um algoritmo funciona como uma receita: existe uma sequência definida de passos necessária para produzir determinado resultado.
