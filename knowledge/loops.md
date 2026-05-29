@@ -2,7 +2,7 @@
 
 ## Definição
 
-## Por que existem estruras de repetição?
+## Por que existem estruturas de repetição?
 
 ## Tipos
 ### For
