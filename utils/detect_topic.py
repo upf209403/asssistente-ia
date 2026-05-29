@@ -1,10 +1,24 @@
+from normalize_text import normalize_text
+from tokenize import tokenize
+
 TOPICS = {
     "condicionais.md": [
-        
+        "condicional",
+        "condicionais"
+        "for",
+        "while",
+        "if",
+        "elif",
+        "else"
     ],
 
     "funcoes.md": [
-
+        "funcao",
+        "funcoes",
+        "argumento",
+        "argumentos",
+        "parametro",
+        "parametros"
     ],
 
     "introducao_python.md": [
@@ -12,41 +26,61 @@ TOPICS = {
     ],
 
     "loops.md": [
-
+        "repeticao",
+        "laco de repeticao",
+        "lacos de repeticao",
+        "for",
+        "while"
     ],
 
     "operadores.md": [
 
     ],
 
-    "pensamento_computacional": [
+    "pensamento_computacional.md": [
+        "pensamento computacional",
+        "algoritmo",
+        "algoritmos",
+        "decomposicao",
+        "abstracao",
+        "reconhecimento de padroes"
+    ],
+
+    "tipos_dados.md": [
 
     ],
 
-    "tipos_dados": [
-
-    ],
-
-    "variaveis": [
+    "variaveis.md": [
 
     ]
 }
 
 
 def detect_topic(prompt: str):
-    prompt = prompt.lower()
+    normalized_prompt = normalize_text(prompt)
+
+    tokens = set(tokenize(normalized_prompt))
 
     topics = []
 
-    if any(word in prompt for word in ["condicional", "condicionais", " if", "elif", "else"]): topics.append("condicionais.md")
+    for file, keywords in TOPICS.items():
+        for keyword in keywords:
+            keyword = normalize_text(keyword)
+            
+            keyword_tokens = keyword.split() #Detecta se a keyword é simples ou composta
 
-    if any(word in prompt for word in ["função", "funcao", "funções", "funcoes", "argumento", "argumentos"]): topics.append("funcoes.md")
+            #Keyword simples
+            if len(keyword_tokens) == 1:
+                if keyword in tokens:
 
-    if any(word in prompt for word in ["variável", "variavel", "variáveis", "variaveis", "constante", "constantes"]): topics.append("variaveis.md")
+                    topics.append(file)
+                    break
+            #Keyword composta
+            else:
+                if keyword in normalized_prompt:
 
-    if any(word in prompt for word in ["repetição", "repetiçao", "repeticao", "laços de repetição", "laços de repetiçao", "laços de repeticao", " for ", "while"]): topics.append("loops.md")
-
-    if any(word in prompt for word in ["pensamento computacional", "algoritmo", "algoritmos", "decomposição", "decomposiçao", "decomposicao", " abstração", "abstraçao", "abstracao", "reconhecimento de padrões", "reconhecimentos de padroes"]): topics.append("pensamento_computacional.md")
+                    topics.append(file)
+                    break
 
     if not topics:
         return """
