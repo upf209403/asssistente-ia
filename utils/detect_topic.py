@@ -22,19 +22,23 @@ TOPICS = {
     ],
 
     "introducao_python.md": [
-
+        "python"
     ],
 
     "loops.md": [
         "repeticao",
-        "laco de repeticao",
-        "lacos de repeticao",
+        "loop",
+        "loops"
         "for",
         "while"
     ],
 
     "operadores.md": [
-
+        "atribuicao",
+        "comparacao",
+        "maior que",
+        "menor que",
+        "instancia de"
     ],
 
     "pensamento_computacional.md": [
@@ -47,14 +51,19 @@ TOPICS = {
     ],
 
     "tipos_dados.md": [
-
+        "string",
+        "str",
+        "int",
+        "float"
     ],
 
     "variaveis.md": [
-
+        "variavel",
+        "variaveis",
+        "constante",
+        "constantes"
     ]
 }
-
 
 def detect_topic(prompt: str):
     normalized_prompt = normalize_text(prompt)
@@ -69,13 +78,14 @@ def detect_topic(prompt: str):
             
             keyword_tokens = keyword.split() #Detecta se a keyword é simples ou composta
 
-            #Keyword simples
+            #Keyword simples (ex: "while")
             if len(keyword_tokens) == 1:
                 if keyword in tokens:
 
                     topics.append(file)
                     break
-            #Keyword composta
+
+            #Keyword composta (ex: "estruturas de repetição")
             else:
                 if keyword in normalized_prompt:
 
