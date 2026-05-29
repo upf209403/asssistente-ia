@@ -17,11 +17,11 @@ def load_chat_prompt():
 
 def ask_gemini(user_prompt: str):
 
-    chat_prompt = load_chat_prompt()
-
     topics = detect_topic(user_prompt)
 
     if(type(topics) == str): return topics
+
+    chat_prompt = load_chat_prompt()
 
     knowledge = load_knowledge(topics)
 
