@@ -1,6 +1,7 @@
 # Operadores
 
 ## Definição
+- Operadores são 
 
 ## Por que existem operadores?
 
