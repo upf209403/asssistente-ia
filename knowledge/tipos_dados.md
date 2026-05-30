@@ -6,14 +6,14 @@
 - Diferentes tipos de dados servem para mapear diferentes tipos de objetos e entidades do mundo real na linguagem computacional
 
 ## Tipos
-
 ### int
-- Representam números inteiros
+- Representam números inteiros.
 ### float
-- Representam números decimais
+- Representam números decimais.
+- 
 ### string
 - Representam texto.
-- Em Python, 
+- Em Python, são simbolizadas pela abreviação "str".
 ### boolean
 - 
 
@@ -24,5 +24,5 @@
 - print(type(True)) retorna 'boolean'
 
 ## Erros comuns
-### Confundir a representação gŕafica com o tipo
+### Confundir a representação gráfica com o tipo
 - 5 e "5", apesar de visualmente usarem o mesmo caractere, são de tipos diferentes, sendo o primeiro inteiro e o segundo uma string.

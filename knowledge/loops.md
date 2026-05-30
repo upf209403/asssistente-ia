@@ -18,4 +18,4 @@
 ## Exemplos
 
 ## Erros comuns
-### Não 
+### Não incrementar variáveis 
