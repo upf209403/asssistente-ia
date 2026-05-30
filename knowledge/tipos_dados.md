@@ -1,6 +1,7 @@
 # Tipos de dados
 
 ## Definição
+- 
 
 ## Por que existem diferentes tipos de dados? 
 
