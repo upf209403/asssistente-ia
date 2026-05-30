@@ -10,10 +10,12 @@
 ### Atribuição
 - Em 
 ### Comparação
+- 
 ### Igualdade
+- 
 
 ## Exemplos
-
+- 
 ## Erros comuns
-
 ### Confundir atribuição e igualdade
+- 

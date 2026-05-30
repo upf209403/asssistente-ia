@@ -1,5 +1,4 @@
 # Tipos de dados
-
 ## Definição
 - 
 
@@ -9,11 +8,12 @@
 ## Tipos
 
 ### int
-- 
+- Representam números inteiros
 ### float
--
-### str
-- 
+- Representam números decimais
+### string
+- Representam texto.
+- Em Python, 
 ### boolean
 - 
 
