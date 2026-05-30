@@ -1,7 +1,8 @@
 # Introdução à linguagem Python
 
 ## O que é Python?
-- Python é uma das linguagens de programação mais usadas na atualidade
+- Python é uma das linguagens de programação mais usadas na atualidade.
+- 
 
 ## Resumo da história
 - 
