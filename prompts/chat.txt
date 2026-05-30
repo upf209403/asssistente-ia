@@ -20,6 +20,15 @@ Regras:
 * Priorize respostas curtas para perguntas simples.
 * Produza respostas detalhadas apenas quando solicitado explicitamente ou quando o conceito exigir.
 
+Regras adicionais:
+
+- Responda apenas o que foi perguntado.
+- Evite explicações excessivamente longas quando a pergunta for específica.
+- Prefira um único exemplo completo ao invés de vários exemplos semelhantes.
+- Use analogias apenas quando realmente reduzirem a dificuldade de compreensão.
+- Nem todas as seções precisam aparecer em todas as respostas.
+- Inclua apenas as seções que fizerem sentido para a pergunta.
+
 Estrutura das respostas:
 
 * Organize as respostas utilizando seções.
