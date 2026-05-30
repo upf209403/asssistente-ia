@@ -4,9 +4,7 @@ from utils.tokenize import tokenize
 TOPICS = {
     "condicionais.md": [
         "condicional",
-        "condicionais"
-        "for",
-        "while",
+        "condicionais",
         "if",
         "elif",
         "else"
@@ -28,7 +26,7 @@ TOPICS = {
     "loops.md": [
         "repeticao",
         "loop",
-        "loops"
+        "loops",
         "for",
         "while"
     ],
@@ -67,8 +65,11 @@ TOPICS = {
 
 def detect_topic(prompt: str):
     normalized_prompt = normalize_text(prompt)
+    print(normalized_prompt)
 
     tokens = set(tokenize(normalized_prompt))
+
+    print(tokens)
 
     topics = []
 
