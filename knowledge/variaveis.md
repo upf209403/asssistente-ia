@@ -6,8 +6,13 @@
 ## Por que existem variáveis?
 - 
 
-## Regras de nomeação de variáveis
-- 
+## Regras e conveções ao nomear variáveis
+- Não iniciar com números ou caracteres especiais
+-
+-
+-
+-
+-
 
 ## Exemplos
 - 
