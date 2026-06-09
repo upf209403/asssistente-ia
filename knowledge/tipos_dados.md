@@ -15,7 +15,8 @@
 - Representam texto.
 - Em Python, são simbolizadas pela abreviação "str".
 ### boolean
-- 
+- Representam os valores lógicos "verdadeiro" e "falso"
+- Em Python, são escritos como True e False. 
 
 ## Exemplos
 - print(type(5)) retorna 'int'

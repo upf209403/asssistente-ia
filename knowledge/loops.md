@@ -16,6 +16,6 @@
 - Recebe uma condição booleana (verdadeira ou falsa) e só se encerra quando o teste lógico não for mais satisfeito
 
 ## Exemplos
-
+- 
 ## Erros comuns
 ### Não incrementar variáveis 
