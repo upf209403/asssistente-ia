@@ -48,7 +48,11 @@ print(soma)
 soma = 0
 num = int(input("Digite um número (0 para encerrar o programa)"))
 
+while num !== 0:
+    soma += num
+    num = int(input("Digite um número (0 para encerrar o programa)"))
 
+print(soma)
 
 
 - Além disso, é possível recriar o lastro de repetição "for" usando "while" e uma variável contadora, como no exemplo abaixo:
