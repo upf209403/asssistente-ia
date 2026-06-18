@@ -15,7 +15,6 @@
 ## Regras e convenções de nomenclatura
 
 ### Regras
-
 - O nome de uma variável não pode começar com números.
 - O nome de uma variável não pode conter espaços.
 - O nome de uma variável não pode utilizar palavras reservadas da linguagem, como if, for, while e def.
