@@ -19,10 +19,19 @@ def hello_world():
 ### Parâmetros
 - Parâmetros são os dados que uma função espera receber para executar sua tarefa.
 - Uma função pode receber de zero a um número indeterminado de parâmetros.
+- No exemplo abaixo, "a" e "b" são parâmetros:
+
+def soma(a, b):
+    return a+b
 
 ### Argumentos
 - Argumentos são os valores passados para que a função seja de fato executada.
 - O número de argumentos de uma função é dado pelo número de parâmetros na hora de sua definição.
+- Usando o exemplo da seção anterior:
+
+soma(2, 5)
+
+- Nesse caso, os valores 2 e 5 são argumentos da função soma.
 
 ### Valores de retorno
 - Esses são os valores os quais a função em questão
@@ -30,7 +39,9 @@ def hello_world():
 - Quando eles existem, geralmente usa-se a palavra reservada "return" para indicá-los.
 
 ### Escopo
-- De maneira geral, funções são autocontidas, ou seja, variáveis declaradas dentro da função não existe para o resto do programa até esta ser chamada ou representam valores diferentes.
+- Variáveis declaradas dentro de uma função normalmente só existem dentro dela.
+- Elas não podem ser acessadas diretamente fora da função.
+- Além disso, uma variável interna pode ter o mesmo nome de uma variável externa sem representar o mesmo valor.
 
 ### Chamada da função
 - Para chamar uma função em Python, é usada a seguinte sintaxe: funcao().
@@ -44,7 +55,7 @@ def ola_mundo():
 
 - No caso abaixo, há um parâmetro , mas nenhum valor de retorno:
 
-def ola_usuário(nome):
+def ola_usuario(nome):
     print("Hello ", nome)
 
 - Já no exemplo seguinte, não há parâmetro, mas há um valor de retorno (a palavra "return" é usada pela primeira vez aqui):
@@ -77,6 +88,12 @@ nome = "Gustavo"
 def define_nome():
     nome = "João"
     return nome
+
+define_nome()
+
+print(nome)
+
+- O valor exibido na tela será "Gustavo", não "João", pois a variável "nome" criada dentro da função é diferente daquela criada fora dela
 
 ### Criar funções "faz-tudo"
 - Como mencionado anteriormente, funções são o exemplo mais direto da aplicação do princípio da abstração.
