@@ -1,7 +1,8 @@
 # Funções
 
 ## Definição
-- Funções são sequências de código definidas para executar algum procedimento que é usado diversas vezes ao longo do programa.
+- Funções são sequências de código definidas para executar algum procedimento específicos
+- A mesma função pode ser usada diversas vezes ao longo do programa.
 - Funcionam como "fábricas", que recebem determinado valor (ou valores), executam um certa operação sobre estes e retornam um resultado específico.
 
 ## Por que existem funções?
@@ -14,7 +15,7 @@
 - O conteúdo da função em si é indentado.
 - Exemplo:
 def hello_world():
-    (corpo da função...)
+    pass
 
 ### Parâmetros
 - Parâmetros são os dados que uma função espera receber para executar sua tarefa.
@@ -34,7 +35,7 @@ soma(2, 5)
 - Nesse caso, os valores 2 e 5 são argumentos da função soma.
 
 ### Valores de retorno
-- Esses são os valores os quais a função em questão
+- Esses são os valores os quais a função em questão devolve após sua execução.
 - Assim como parâmetros, nem toda função possui valores de retorno.
 - Quando eles existem, geralmente usa-se a palavra reservada "return" para indicá-los.
 
@@ -81,7 +82,7 @@ def soma_range_personalizado(num):
 ## Erros comuns
 ### Ignorar escopo
 - Muitos iniciantes tendem a não considerar o escopo de variáveis.
-- No exemplo a seguir, "nome" representam valores diferentes:
+- No exemplo a seguir, "nome" representa valores diferentes em contextos distintos:
 
 nome = "Gustavo"
 
@@ -105,10 +106,10 @@ print(nome)
 - Isso melhora a leitura do código por outros desenvolvedores e a manutenabilidade do código no longo prazo.
 - Dessa forma, os exemplos abaixo ilustram funções ruins desse ponto de vista (o que representa o "valor" calculado?):
 
-def calcula_valor(valor1, valor2...):
-    (corpo da função...)
+def calcula_valor(valor1, valor2):
+    pass
 
 - Um exemplo corrigido (dependeria do contexto do programa):
 
 def calcula_faturamento_liquido_trimestre(faturamento_bruto, total_deducoes):
-    (corpo da função...)
+    pass
